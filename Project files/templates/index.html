@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pattern Sense - Fabric Classifier</title>
+</head>
+<body>
+    <h2>Upload Fabric Image</h2>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Predict Pattern</button>
+    </form>
+</body>
+</html>
